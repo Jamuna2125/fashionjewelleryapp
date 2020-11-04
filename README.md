@@ -1,2 +1,2 @@
 # fashionjewelleryapp
-Has files related to loal buisness app
+Has files related to local buisness app
