@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg1"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:id="@+id/jvg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="JVG Fashion Jewellery"
+        android:textColor="#3F0463"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="33sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/jvg"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/earrings" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/imageView1"
+        app:srcCompat="@drawable/wholesalejewellery" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/imageView2"
+        app:srcCompat="@drawable/jewellery" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="180dp"
+        android:layout_height="270dp"
+        android:layout_below="@+id/jvg"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/imageView1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Jewellery is an inseparable part of women’s life.JVG Jewellery offers range of aesthetically designed fashion jewellery like necklace,earrings,bangles & bracelets at best and affordable price."
+        android:textColor="#3F0463"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@id/imageView3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="CONTACT US:"
+        android:textColor="#3F0463" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="415dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="194dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="So girls, flaunt your fashionable taste and be in the spotlight by wearing elegant , fashionable accessories done by us."
+        android:textColor="#3F0463"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:044-2386-6402
+       E-Mail id: jvgfashion@gmail.com"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@id/imageView3"
+        android:textColor="#3F0463"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="381dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="67dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Address:35/15,JVG Fashion Jewellery,North Usman Road,Tnagar,Chennai-600017"
+        android:textColor="#3F0463" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Working hours-9am to 7:30pm No Holidays"
+        android:textColor="#3F0463"
+        android:textSize="15sp"
+        />
+
+</RelativeLayout>
